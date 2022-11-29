@@ -5,18 +5,15 @@ body {
   }
 
   .relative-test {
+    position:relative;
     background-color: gray;
     height: 180px;
-    border: 2px solid blue;
   }
 
   .absolute-test {
     position: absolute;
-    top: 355px;
-    /* right: 0;
-    width: 200px;
-    height: 100px; */
-    border: 3px solid #73AD21;
+    bottom: 0;
+    border: 1px solid #73AD21;
   }
   
   img {
